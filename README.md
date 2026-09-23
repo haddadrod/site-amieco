@@ -18,7 +18,7 @@ Ouvrir `index.html` dans un navigateur, ou `npx serve .` à la racine.
 
 1. Sur vercel.com : « Add New… » → « Project » → choisir ce dépôt.
 2. Framework Preset : « Other ». Ne rien renseigner d'autre.
-3. « Deploy ». Puis Settings → Domains pour ajouter le nom de domaine ; HTTPS est automatique.
+3. « Deploy ». Puis Settings → Domains pour relier `amieco-groupe.com` (domaine géré par Vercel) ; HTTPS est automatique.
 
 Chaque commit poussé sur `main` remet le site en ligne.
 
@@ -27,7 +27,7 @@ Chaque commit poussé sur `main` remet le site en ligne.
 1. **Coordonnées** : bloc `CONTACT` en bas de `index.html` (e-mail, téléphone, endpoint de formulaire).
    Dès qu'ils sont renseignés, les lignes E-mail / Téléphone apparaissent dans la section Contact.
    Sans endpoint de formulaire, le formulaire ouvre le client mail du visiteur avec le message pré-rempli.
-2. **Hébergeur** : section « Hébergement » de `mentions-legales.html`.
+2. **Hébergeur** : déjà renseigné (Vercel) dans `mentions-legales.html`.
 3. **Textes à valider** : les engagements (rémunération au résultat, un seul interlocuteur,
    horaires 9h–18h) sont des formulations proposées, à ajuster à la pratique réelle.
 
